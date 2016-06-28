@@ -24,5 +24,6 @@
 16. A modal pops up! Copy the first script tag and paste it within your vendor files at the bottom of your index.html
 17. Copy the contents of the second script tag in this modal and paste the contents into the new firebaseInit.js file you created.
 18. Reference this firebaseInit.js file underneath your first firebase script tag in index.html
-19. Type `firebase deploy` and hit enter
+19. Save all, and head back to the terminal.
+19. Type `firebase deploy` and hit enter.
 20. Once complete, head to the URL specified.
