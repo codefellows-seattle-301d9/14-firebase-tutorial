@@ -2,24 +2,27 @@
 =======
 [![Build Status](https://travis-ci.org/codefellows-seattle-301d4/07-functional-programming.svg?branch=master)](https://travis-ci.org/codefellows-seattle-301d4/07-functional-programming) [![GitHub issues](https://img.shields.io/badge/Stuck%3F-Ask%20for%20Help!-orange.svg)](https://github.com/codefellows/seattle-301d7/issues/new)
 
-The concepts of functional programming have significantly shaped Computer Science from the early days.
+## Firebase Tutorial!
 
-Apply some "FP" concepts to the MVC Blog!
+### Steps
 
-We'll make an "admin" page, which will show some stats on how authors on the blog are doing. In the end, it will looks [something like this](https://cf-mvc-blog--class07.aerobatic.io/admin.html).
-
-Today there are many TODO items, but they are (mostly) smaller bites.
-
-## TODOs: MVP
-
-1. Let's make sure each one of our scripts are properly enclosed. Wrap the contents of article.js in an IIFE, just like articleView.js has been. Set up your IIFE so it receives a parameter to which it can attach behavior.  
-
-1. For both `index.html` and `admin.html`, we'll want access to the `Article.all` data...but we'll have different view functions to set up each of those pages. Help complete the `fetchAll` function so that it calls a `next` parameter: a function to invoke when it's work is done.  
-
-1. Ensure both the index page and the admin page call `fetchAll` in a way that properly triggers the appropriate page setup methods.  
-1. Use chained map/reduce calls to transform the data into what you need it to be.  
-
-
-## Stretch Goals:
-- What statistical analysis would be of interest to you with this data set? Code it up!  
-
+1. Log in to Google.
+2. Navigate to https://console.firebase.google.com/
+3. Setup a web project with a given name.
+4. Install the command line tools (CLI) via `npm install -g firebase-tools`
+5. `firebase login`
+6. `firebase init` from root of project.
+7. Leave both options selected for database and hosting.
+8. Select 'your-project-name'
+9. Select the default database file (database.rules.json)
+10. Your public directory in this case should be 'starter-code'
+11. Answer 'N' to Configure as a single-page app.
+12. Do NOT overwrite your existing index.html - answer 'N'
+13. `touch firebaseInit.js` in the same folder as your index.html
+14. Back to console.firebase.google.com, select your project name from the home page.
+15. Now select the maroon-colored circle with the code block in it.
+16. A modal pops up! Copy the first script tag and paste it within your vendor files at the bottom of your index.html
+17. Copy the contents of the second script tag in this modal and paste the contents into the new firebaseInit.js file you created.
+18. Reference this firebaseInit.js file underneath your first firebase script tag in index.html
+19. Type `firebase deploy` and hit enter
+20. Once complete, head to the URL specified.
