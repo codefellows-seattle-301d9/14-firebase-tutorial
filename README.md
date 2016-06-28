@@ -27,7 +27,8 @@
 19. Save all, and head back to the terminal.
 19. Type `firebase deploy` and hit enter.
 20. Once complete, head to the URL specified.
-21. Append: ```js
+21. Append: 
+```js
 // Get a reference to the database service
 var database = firebase.database();
 ```
