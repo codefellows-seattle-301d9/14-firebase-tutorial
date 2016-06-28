@@ -18,7 +18,7 @@
 10. Your public directory in this case should be 'starter-code'
 11. Answer 'N' to Configure as a single-page app.
 12. Do NOT overwrite your existing index.html - answer 'N'
-13. `touch firebaseInit.js` in the same folder as your index.html
+13. cd into starter-code and `touch firebaseInit.js` 
 14. Back to console.firebase.google.com, select your project name from the home page.
 15. Now select the maroon-colored circle with the code block in it.
 16. A modal pops up! Copy the first script tag and paste it within your vendor files at the bottom of your index.html
